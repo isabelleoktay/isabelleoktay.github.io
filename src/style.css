@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
+.font-link {
+  font-family: 'Major Mono Display', monospace;
+}
+
 body{ 
   display: flex;
   width: 100vw;
