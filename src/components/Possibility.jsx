@@ -12,7 +12,7 @@ const Possibility = (props) => {
                 <p className='glitch'>of&nbsp;clay&nbsp;&nbsp;&nbsp;&nbsp;<span className='text-sm'>burden</span></p>
                 <p className='mb-20 glitch'>had&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;escaped</p>
                 <p className='glitch text-sm'>halls of</p>
-                <p className='glitch'>ideas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scheme</p>
+                <p className='glitch'>ideas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='hover:font-extrabold hover:text-lg hover:cursor-pointer hover:text-white hover:uppercase'>scheme</span></p>
                 <p className='glitch'>jealous to some</p>
                 <p className='mb-20 glitch'>others&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='text-sm'>left</span></p>
                 <p className='glitch'>weaker</p>

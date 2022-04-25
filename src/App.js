@@ -1,6 +1,7 @@
 import './App.css';
 //import Forfex from './components/Forfex';
-import Possibility from './components/Possibility';
+//import Possibility from './components/Possibility';
+import Yarn from './components/Yarn';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
     <div className="App bg-black">
       <div class="stars"></div>
       <div class="twinkling"></div> 
-      <Possibility/>
+      <Yarn/>
     </div>
     
   );
