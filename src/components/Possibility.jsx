@@ -4,7 +4,7 @@ import "../style.css";
 const Possibility = (props) => {
     return (
         <div className='flex h-screen justify-center items-center hero-container'>
-            <div className='text-left font-mono z-20 glow font-link'>
+            <div className='text-left font-mono z-20 glow font-link cursor-default'>
 
                 <p className='glitch text-sm'>before</p>
                 <p className='glitch'>they&nbsp;&nbsp;had&nbsp;&nbsp;molded</p>

@@ -4,7 +4,7 @@ import "../style.css";
 const Forfex = (props) => {
     return (
         <div className='flex h-screen justify-center items-center hero-container'>
-            <div className='text-center font-mono z-20 glow font-link'>
+            <div className='text-center font-mono z-20 glow font-link cursor-default'>
 
                 <p className='glitch'><span className='text-sm'>hope</span> for</p>
                 <p className='glitch'><span className='text-cyan-400'>Earth</span> becalmed</p>
