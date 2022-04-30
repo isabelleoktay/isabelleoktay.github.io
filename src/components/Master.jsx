@@ -1,9 +1,11 @@
 import React from 'react';
 import "../style.css";
 
-const Yarn = (props) => {
+const Master = (props) => {
     return (
         <div className='flex h-screen justify-center items-center hero-container'>
+            <div class="stars"></div>
+            <div class="twinkling"></div>
             <div className='text-center font-mono z-20 glow font-link'>
 
                 <p className='glitch'>save them</p>
@@ -12,7 +14,7 @@ const Yarn = (props) => {
                 <p className='glitch text-3xl'>in danger</p>
                 <p className='glitch text-3xl'>of exhausting&nbsp;&nbsp;&nbsp;&nbsp;supply roots</p>
                 <p className='glitch mb-20 text-3xl'>blood flesh</p>
-                <p className='glitch text-2xl'>the <span className='hover:font-extrabold hover:text-lg hover:cursor-pointer hover:text-white hover:uppercase'>boon</span></p>
+                <p className='glitch text-2xl'>the boon</p>
                 <p className='glitch text-2xl'>of clay naked and</p>
                 <p className='mb-20 glitch text-2xl'>forgot</p>
                 <p className='mb-32 glitch text-xl'>they were given nothing</p>
@@ -25,4 +27,4 @@ const Yarn = (props) => {
     )
 }
 
-export default Yarn;
+export default Master;

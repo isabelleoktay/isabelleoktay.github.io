@@ -1,17 +1,40 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Forfex from './components/Forfex';
+import Possibility from './components/Possibility';
+import Master from './components/Master';
+import Scheme from './components/Scheme';
+import Consumate from './components/Consumate';
+import Innards from './components/Innards';
+import Their from './components/Their';
+import Shepherd from './components/Shepherd';
+import Mortal from './components/Mortal';
+import Pardon from './components/Pardon';
+import './style.css';
+import './index.css'
+import './App.css';
+import Punishment from './components/Punishment';
+import Defenseless from './components/Defenseless';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.render(
+    <Router>
+       <Routes>
+		      <Route exact path="/" element={<Forfex/>}/>
+				  <Route path="/possibility" element={<Possibility/>}/>
+		      <Route path="/master" element={<Master/>}/>
+				  <Route path="/scheme" element={<Scheme/>}/>
+          <Route path="/consumate" element={<Consumate/>}/>
+		      <Route path="/innards" element={<Innards/>}/>
+				  <Route path="/their" element={<Their/>}/>
+				  <Route path="/shepherd" element={<Shepherd/>}/>
+				  <Route path="/mortal" element={<Mortal/>}/>
+				  <Route path="/pardon" element={<Pardon/>}/>
+				  <Route path="/punishment" element={<Punishment/>}/>
+				  <Route path="/defenseless" element={<Defenseless/>}/>
+
+
+	    </Routes>
+    </Router>,
+    document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
